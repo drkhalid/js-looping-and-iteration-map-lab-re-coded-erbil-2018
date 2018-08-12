@@ -6,8 +6,8 @@ function lowerCaseDrivers(list){
 function attributesToPhrase(list){
   
   return list.map(function(fullName){
-    const first = fullName.split(' ');
-    const second = fullName.split(' ');
+    const first = fullName.split(' ')[0];
+    const second = fullName.split(' ')[1];
     return {firstName: first,lastName:second}
  
 })}
