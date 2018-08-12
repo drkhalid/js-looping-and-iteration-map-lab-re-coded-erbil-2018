@@ -9,3 +9,8 @@ function nameToAttributes(list){
     let second = driver.split(' ')[1];
     return {firstName: first, lastName:second}});}
 
+function attributesToPhrase(list){
+  return list.map(function(driverDetails){
+    return
+  })
+}
