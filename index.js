@@ -5,7 +5,7 @@ function lowerCaseDrivers(list){
 
 function attributesToPhrase(list){
   let myObj ={}
-  list.map(function(fullName){
+  return list.map(function(fullName){
     myObj.firstName.assign(fullName.split(' ')[0]);
     myObj.lastName.assign(fullName.split(' ')[1])})
  
