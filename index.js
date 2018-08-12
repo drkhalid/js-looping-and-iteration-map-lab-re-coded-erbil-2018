@@ -14,3 +14,4 @@ function attributesToPhrase(list){
     return
   })
 }
+
