@@ -10,5 +10,5 @@ function attributesToPhrase(list){
     myObj.lastName.assign(fullName.split(' ')[1])
   })
  
- return 
+ return myObj
 }
