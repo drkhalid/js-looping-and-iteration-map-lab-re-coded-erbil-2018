@@ -22,7 +22,9 @@ expect(attributesToPhrase(drivers)).to.eql([
 
 function attributesToPhrase(list){
   return list.map(function(driverDetails){
-    return
+    let name = driverDetails.name;
+    let home = driverDetails.hometown;
+    return `${name} is from ${home}`
   })
 }
 
