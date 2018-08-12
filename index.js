@@ -3,3 +3,6 @@ function lowerCaseDrivers(list){
   return list.map((name)=> name.toLowerCase())
 }
 
+function attributesToPhrase(){
+  
+}
