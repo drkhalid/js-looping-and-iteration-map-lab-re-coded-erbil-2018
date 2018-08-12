@@ -11,6 +11,7 @@ function attributesToPhrase(list){
  
 });
   }
+  
 function nameToAttributes (list) {
    return list.map(function (driver) {
     const driverFirst = driver.split(' ')[0];
@@ -19,3 +20,4 @@ function nameToAttributes (list) {
     return { firstName: driverFirst, lastName: driverLast };
   });
 }
+
