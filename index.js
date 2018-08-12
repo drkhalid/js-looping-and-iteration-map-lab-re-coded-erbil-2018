@@ -10,3 +10,4 @@ function attributesToPhrase(list){
     return {firstName: first, lastName:second}
  
 })}
+
