@@ -7,7 +7,10 @@ function attributesToPhrase(list){
   let myObj ={}
   return list.map(function(fullName){
     myObj.firstName.assign(fullName.split(' ')[0]);
-    myObj.lastName.assign(fullName.split(' ')[1])})
+    myObj.lastName.assign(fullName.split(' ')[1])
+    
+  })
+  
  
- return myObj
+ 
 }
